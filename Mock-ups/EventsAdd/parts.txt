@@ -1,0 +1,25 @@
+category 1
+Event name 2
+participants 3
+
+
+date 1
+time 2
+duration 3
+
+
+Location
+	city1
+	map2
+	address3
+
+
+languages 1
+followers only 2
+descriptions 3
+
+
+repeat?
+price
+
+
