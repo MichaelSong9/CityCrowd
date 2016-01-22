@@ -1,0 +1,2649 @@
+.nFPRecoverButton, .nForgotRegister, .nForgotLogin, .nFPButton, .nRegisterLogin, .nRegisterButton, a, .nMSSendButton, .nCompletionCircle, .nCompletionBox, .nProfileFollowersLabel, .nProfileFollowingsLabel, .nSIRowEnterArrow, nCompletionBox, .nVerified, #EVcanvas, .profileName, .nLoginRegister, .nLoginForgot, .nLoginButton {
+    cursor: pointer !important;
+}
+
+.nNoDecoration {
+    margin-top: 0.5em;
+    position: absolute;
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.nRequestMessageDecoration {
+    position: absolute;
+    width: 1.6em;
+    height: 1.6em;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url('../Images/Blue.png');
+    margin-left: -1.65em;
+    bottom: 0;
+}
+
+.nFooterButton2small {
+    background-color: rgb(255,187,5);
+    width: 42%;
+    height: 1.5em;
+    margin: auto auto;
+    padding-top: 0.5em;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 0.3em;
+}
+
+.nLoginValidationMessage {
+    margin-top: -0.4em;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.4);
+    text-align: right;
+    position: relative;
+}
+
+.nCompletionValidationErrorMessage {
+    height: 1em;
+    line-height: 2em;
+    text-align: right;
+    padding-right: 5%;
+    color: white;
+}
+
+.nCompletionErrorMessage {
+    width: 16em;
+    text-align: center;
+    color: white;
+    position: relative;
+    margin: auto auto;
+}
+
+.nCompletionLocationInputCountry {
+    max-width: 95%;
+}
+
+.nCompletionLocationContainer {
+    width: 100%;
+    position: relative;
+    margin-top: 2.5em;
+    text-align: right;
+}
+
+.nCompletionLocationInput {
+    margin-bottom: 0.3em;
+}
+
+.nCompletionLocationLastInput {
+    margin-right: 0.3em;
+}
+
+.nCompletionDropdown {
+    margin-top: 0.3em;
+    margin-right: 0;
+    width: 37%;
+    float: right;
+    height: 100%;
+}
+
+.nCompletionBoxFirst {
+    width: 100%;
+    height: 100%;
+}
+
+.nCompletionArrow {
+    margin-right: 0.3em !important;
+    margin-top: 0.3em !important;
+}
+
+.nCompletionTextInput {
+    width: 100%;
+    top: 0.2em;
+    position: relative;
+}
+
+.nCompletionDateInput {
+    position: relative;
+    width: 100%;
+    height: 1.55em;
+    top: 0.15em;
+    font-size: 0.9em;
+}
+
+.nCompletionInput {
+    width: 45%;
+    float: right;
+    height: 100%;
+    margin-right: 0.5em;
+}
+
+.nCompletionBoxSecond {
+    position: absolute;
+    width: 100%;
+}
+
+.nCompletionIcon {
+    float: left;
+    width: 2em;
+    height: 2em;
+    margin-left: 0em;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.nCompletionName {
+    font-size: 0.9em;
+    float: left;
+    line-height: 2.2em;
+    color: rgb(83,106,122);
+    margin-left: 0.2em;
+}
+
+.nCompletionStatus {
+    float: right;
+    width: 1.6em;
+    height: 1.6em;
+    margin-top: 0.2em;
+    margin-right: 0.2em;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url('../Images/Icons/OK_icon.png');
+}
+
+.nCompletionIconFN, .nCompletionIconLN {
+    background-image: url('../Images/Icons/ic_action_person.png');
+}
+
+.nCompletionIconUN {
+    background-image: url('../Images/Icons/ic_action_accounts.png');
+}
+
+.nCompletionIconGender {
+    background-image: url('../Images/Icons/Gender.png');
+}
+
+.nCompletionIconBD {
+    background-image: url('../Images/Icons/ic_action_go_to_today.png');
+}
+
+.nCompletionIconLocation {
+    background-image: url('../Images/Icons/ic_action_place.png');
+}
+
+.nCompletionBox {
+    position: relative;
+    top: 1em;
+    width: 90%;
+    height: 2em;
+    margin: auto auto;
+    background-color: white;
+    border-radius: 0.2em;
+    margin-bottom: 0.6em;
+}
+
+.nCompletionPhotoText {
+    font-size: 0.8em;
+    margin: auto auto;
+    margin-top: 0.7em;
+    color: rgb(126,143,154);
+    width: auto;
+    text-align: center;
+}
+
+.nCompletionPhotoIcon {
+    background-image: url('../Images/Icons/ic_action_new_picture.png');
+    width: 2em;
+    height: 2em;
+    background-size: 100% 100%;
+    margin: auto auto;
+    margin-left: 1.65em;
+    top: 0.7em;
+    position: relative;
+}
+
+.nCompletionCircle {
+    border-radius: 3em;
+    -webkit-border-radius: 3em;
+    -moz-border-radius: 3em;
+    width: 5em;
+    height: 5em;
+    background-color: white;
+    margin: auto;
+    margin-top: 1em;
+}
+
+.nCompletionHeader {
+    color: white;
+    width: 80%;
+    height: auto;
+    margin: auto auto;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.nMessagesProfileHr {
+    width: 120% !important;
+}
+
+.nProfileReviewDate {
+    margin-top: 0em !important;
+    margin-left: 3em !important;
+}
+
+.nProfileReviewBody {
+    float: left;
+    margin-left: 0.5em;
+    width: 84%;
+}
+
+.nProfileMessagesHeart {
+    margin-top: 2em !important;
+}
+
+.nProfileReviewHeartText {
+    position: relative;
+    top: 2em;
+    color: rgb(133,133,133);
+}
+
+.nRequestsContentHolder {
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    top: 1em !important;
+    bottom: 1em !important;
+}
+
+.nDescriptionContent {
+    width: 100% !important;
+}
+
+.nEVOwnerName {
+    width: auto;
+    height: auto;
+}
+
+.nEAACtivityType {
+}
+
+.nProfileFooterContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.nGeneralErrorMessage {
+    color: red !important;
+    font-style: italic !important;
+}
+
+.ui-slider {
+    border-radius: 2em !important;
+}
+
+.nEAeachLable {
+    width: auto !important;
+}
+
+.nEATimeMessage {
+    color: red;
+    font-style: italic;
+    margin-left: 1em;
+    left: 1em;
+    position: relative;
+}
+
+.nRadioCircle {
+    width: 1.25em;
+    height: 1.25em;
+    border-radius: 0.75em;
+    border: #888888 solid 1px;
+    float: left;
+    box-shadow: 0px 3px 10px #888888;
+}
+
+.nRedPlaceHolder::-webkit-input-placeholder { /* WebKit browsers */
+    color: red;
+    font-style: italic;
+}
+
+.nRedPlaceHolder:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: red;
+    opacity: 1;
+    font-style: italic;
+}
+
+.nRedPlaceHolder::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: red;
+    opacity: 1;
+    font-style: italic;
+}
+
+.nRedPlaceHolder:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: red;
+    font-style: italic;
+}
+
+.nEAlanguageButtons {
+    border-radius: 2em;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    background-color: rgb(251,250,250);
+    color: rgb(198,93,134);
+    border: rgb(235,235,235) solid 1px;
+    width: 2em;
+    height: 2em;
+    float: right;
+    margin-left: 0.4em;
+    text-align: center;
+    line-height: 2em;
+    cursor: pointer;
+}
+
+.nEAlanguageButtonsAdd {
+}
+
+.nEAlanguageButtonsPlus {
+    font-size: 2em;
+    color: rgb(185,185,185);
+    line-height: 1em;
+    height: 1em;
+    width: 1em;
+    text-align: center;
+    cursor: pointer;
+}
+
+div {
+    text-shadow: none !important;
+}
+
+.nEVShareButton {
+    width: 2em;
+    height: 2em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    cursor: pointer;
+    float: left;
+}
+
+.nDotsBoxShare {
+    padding-left: 0.8em;
+    height: auto;
+    padding-top: 0.2em;
+}
+
+.fa-ellipsis-h:before {
+    cursor: pointer;
+}
+
+.nEVparticipantName {
+    margin-left: 0.5em;
+}
+
+.nEVMessagesPicture {
+    margin-top: 0 !important;
+}
+
+#EVcanvas {
+    top: -0.5em;
+    left: -0.5em;
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.nParticipantNumberPictureTop {
+    width: 100%;
+    height: 40%;
+    color: rgb(119,119,119);
+    text-align: center;
+    top: 0.2em;
+    padding-top: 0.3em;
+}
+
+.nParticipantNumberPictureBot {
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    text-align: center;
+    background-image: url('../Images/Icons/ic_action_group.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    margin-top: -0.7em;
+}
+
+.nParticipantNumberPicture {
+    background-color: rgb(222,222,222);
+    width: 3.5em !important;
+    height: 3.5em !important;
+    top: 0.5em;
+}
+
+.nDotsEvent {
+    color: grey !important;
+    right: 1em !important;
+    position: absolute !important;
+    z-index: 2;
+}
+
+    .nDotsEvent i {
+        color: white;
+    }
+
+.nSPButton {
+    width: 12em;
+    height: 1.5em;
+    color: white;
+    margin: auto;
+    background-color: rgb(215,64,46);
+    text-shadow: none;
+    text-align: center;
+    margin-top: 0.8em;
+    padding-top: 0.3em;
+    font-size: 0.8em;
+}
+
+.nSIview {
+    width: 100%;
+    padding-top: 1em;
+    text-shadow: none;
+    position: absolute;
+}
+
+.nSImodify {
+    width: 100%;
+    padding-top: 0.1em;
+    text-shadow: none;
+    position: absolute;
+}
+
+.nSIRow {
+    height: 2.5em;
+}
+
+.nSIEditHr {
+    position: absolute;
+}
+
+.nSIRowEnterArrow {
+    margin-top: 0.9em;
+}
+
+
+.NSRowAboutValue {
+    top: 0.5em;
+    position: relative;
+    left: 1em;
+    margin-right: 2em;
+}
+
+.nSIRowEnterArrow {
+    float: right;
+    margin-right: 1em;
+    background-image: url('../Images/Icons/selected.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.nSIHr {
+}
+
+.nSIRowTitle {
+    float: left;
+    margin-left: 1em;
+    margin-top: 0.2em;
+}
+
+.nSIRowValue {
+    float: right;
+    margin-right: 1em;
+    margin-top: 0.2em;
+}
+
+.nSettingsHr {
+    margin: 0;
+    margin-top: 1em;
+}
+
+.nSIRowViewArrow {
+    float: right;
+    margin-right: 1em;
+    background-image: url('../Images/Icons/arrow-grey.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    width: 0.7em;
+    height: 1.5em;
+}
+
+.nSettingsList {
+    width: 100%;
+    padding-top: 1em;
+    text-shadow: none;
+}
+
+.nSettingsListText {
+    float: left;
+    margin-left: 1em;
+    margin-top: 0.2em;
+}
+
+.nSettingsListArrow {
+    float: right;
+    margin-right: 1em;
+    background-image: url('../Images/Icons/arrow.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.nRequestMessageWrapper {
+    overflow-x: visible;
+}
+
+.nRequestCanvas {
+    position: absolute;
+    top: -0.5em;
+    left: -0.5em;
+}
+
+.nRequestUserInfo {
+    color: black;
+    margin-right: 1em;
+    margin-top: 0.5em;
+}
+
+.nRequestsHr {
+    height: 5px;
+    border: none;
+    color: rgb(247,178,81);
+    background-color: rgb(247,178,81);
+    top: 2em;
+    position: relative;
+    margin-bottom: 3em;
+}
+
+.nRequestFooterButton {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    padding-top: 0.75em;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.nRequestFooterSecondButton {
+    right: 0px;
+}
+
+.nRequestFooter {
+    width: 100%;
+    position: absolute;
+    background-color: red;
+    height: 1.5em;
+    top: 7.0em;
+}
+
+.nRequestsLocation {
+    margin-left: 1.2em;
+    position: absolute;
+    top: 3.2em;
+    left: -.7em;
+}
+
+.nRequestCountryFlag {
+    width: 1.5em !important;
+    height: 1.5em !important;
+    position: absolute;
+    left: -1.5em !important;
+    top: 4.2em !important;
+    margin: 0 !important;
+    float: left;
+}
+
+.nRequestCountry {
+    background-color: red;
+    position: relative;
+    top: 1em;
+}
+
+.nRequestMessage {
+    background-color: rgb(11,172,211);
+    padding: 0.5em;
+    border-radius: 0.5em;
+    margin-left: 8.5em;
+    top: -1.2em;
+    position: relative;
+    margin-right: 1em;
+    font-size: 0.8em;
+    max-height: 3.5em;
+    display: inline-block;
+}
+
+.nRequestPicture {
+    margin-left: 2em !important;
+    top: 1em !important;
+}
+
+.nRequestArrowRight {
+    float: left !important;
+    margin-top: 0 !important;
+}
+
+.nRequestUserInfo {
+}
+
+.nRequestsPerson {
+    background-image: url('../Images/Icons/ic_action_person.png');
+}
+
+.nNotificationHr {
+    margin-bottom: 0 !important;
+}
+
+.nNotificationPicture {
+    margin-top: 0em !important;
+}
+
+.nNotification {
+    margin-left: 2em;
+    left: 0.5em;
+    position: relative;
+}
+
+.nNotificationTitle span {
+    font-size: 1.2em !important;
+}
+
+.nIntroDesc {
+    width: 85vw; /* 20% of the viewport width */
+    margin: auto auto;
+    text-align: center;
+}
+
+.nIntroImage {
+    background-image: url('../Images/sample.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    width: 55vw /* 20% of the viewport width */;
+    height: 75vw;
+    margin: auto auto;
+}
+
+.nIntroTitle {
+    margin-left: 0.5em;
+    position: relative;
+    top: 1em;
+}
+
+.nIntroProgress {
+    float: left;
+    font-size: 1em;
+    left: 0em;
+    position: relative;
+    top: 0.8em;
+}
+
+.nYellowEllipse {
+    margin-left: 0.5em;
+    float: left;
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 0.25em;
+    background-color: rgb(255,187,5);
+}
+
+.nMSSendButton {
+    width: 6em;
+    height: 2.65em;
+    color: white;
+    text-shadow: none;
+    background-color: rgb(215,67,46);
+    padding-top: 1.4em;
+    float: right;
+    font-size: 0.7em;
+    margin-top: 0.6em;
+    margin-right: 0.7em;
+    text-align: center;
+    border-radius: 0.5em;
+}
+
+.nMSTextArea {
+    width: 70%;
+    height: 4.5em;
+    float: left;
+    margin-left: 0.7em;
+    font-size: 0.8em;
+}
+
+.nMSFooter {
+    height: 5.5em !important;
+}
+
+.nMSOtherSenderDate {
+    margin-right: 2em;
+    right: 0em;
+    float: right !important;
+}
+
+.nMSOtherSenderMessage {
+    padding-left: 1.2em !important;
+}
+
+.nMSOtherSenderPicture {
+    right: 0.5em !important;
+    margin-left: 0em !important;
+}
+
+.nMSOtherSenderWD {
+    right: 0;
+}
+
+.nMainPanelScrollable {
+    position: absolute !important;
+    overflow-y: scroll !important;
+}
+
+.nMSDate {
+    color: rgb(184,173,177) !important;
+    font-size: 0.9em !important;
+    margin-left: 2em;
+}
+
+
+.nMSMessage {
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    padding-left: 4.5em;
+    font-size: 0.8em;
+    text-shadow: none;
+    margin-right: 0.7em;
+}
+
+.nMSWhiteDiv1 {
+    height: 1.5em;
+    width: 2.9em;
+    background-color: white;
+    position: relative;
+    margin-top: -3px;
+    float: left;
+}
+
+.nMSWhiteDiv2 {
+    background-color: white;
+    width: 1.5em;
+    height: 100%;
+    position: absolute;
+    float: left;
+}
+
+.eachMessage {
+    background-color: rgb(11,172,211);
+    color: white;
+    text-shadow: none;
+    width: 70%;
+    border-radius: 0.4em;
+    min-height: 2.3em;
+    margin-top: 0.5em;
+}
+
+.nMessagesShowPicture {
+    position: absolute;
+    z-index: 1;
+    margin-top: 0em !important;
+    border: white solid 0.2em;
+}
+
+.invisible {
+    visibility: hidden;
+    position: absolute;
+}
+
+.nMessagesHr {
+    margin-left: 3em;
+}
+
+.nMessagesNumberContainer {
+    width: 4em;
+    height: 3em;
+    float: right;
+}
+
+.nMessagesUnreadNumber {
+    background-color: rgb(255,187,5);
+    color: white;
+    text-align: center;
+    height: 1.3em;
+    width: 2.1em;
+    padding-top: 0.15em;
+    margin: auto auto;
+    margin-top: 1em;
+    border-radius: 1em;
+}
+
+.nMessagesClock {
+    margin-top: 0 !important;
+}
+
+.nMessagesInsideDiv {
+    float: left;
+    margin-left: 0.5em;
+    width: 70%;
+}
+
+.nSearchResults {
+    position: relative;
+    top: 6em;
+}
+
+.nMiddle {
+    margin: auto auto;
+}
+
+.nSearchLogos {
+    width: 100%;
+    margin-top: 0.5em;
+}
+
+.nSearchLogo {
+    margin: auto auto;
+    background-color: rgb(222,222,222);
+    width: 2em;
+    height: 2em;
+    border-radius: 1em;
+    background-size: 70% 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nSearchLogoContainer {
+    width: 12.5%;
+    height: 2.4em;
+    float: left;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+.nSearchButton {
+    height: 2em;
+    width: 3em !important;
+    background-color: rgb(215,67,46);
+    background-image: url('../Images/Icons/ic_action_search.png');
+    background-repeat: no-repeat;
+    background-size: 2em 2em;
+    background-position: center;
+    border-radius: 0.2em;
+}
+
+.nSearchTagButton {
+    margin-top: 0.4em;
+}
+
+.nSearchFilterButton {
+    margin-top: 3.5em;
+}
+
+* {
+}
+
+.nSearchSearchBox {
+    width: 80%;
+}
+
+.nSearchLocationLink a {
+    width: 6em;
+    text-align: right;
+    font-size: 0.8em;
+    text-decoration: none;
+    font-weight: 100;
+    color: rgb(116,179,237);
+}
+
+.nSearchLocationLink {
+    width: 6em;
+    text-align: right;
+}
+
+.nSearchLocation {
+    float: left;
+    color: rgb(133,133,133);
+    font-size: 0.8em;
+}
+
+.nMarkerIcon {
+    background-image: url('../Images/Icons/ic_action_place.png');
+}
+
+.nSmallIcon {
+    float: left;
+    width: 1.2em;
+    height: 1.2em;
+    background-size: 100% 100%;
+    background-position: center;
+    margin-top: -0.16em;
+    margin-left: -0.2em;
+    background-repeat: no-repeat;
+}
+
+
+.nBlogBody {
+    margin-top: 0.2em;
+}
+
+.nBlogClock {
+    background-image: url('../Images/Icons/ic_action_time.png');
+}
+
+.nBlogTime span {
+    float: left;
+    color: rgb(133,133,133);
+    font-size: 0.7em;
+}
+
+.nRequestUserInfo a, .nRequestUserInfo a:visited {
+    color: black !important;
+    text-decoration: none;
+}
+
+.nBlogTitle a, .nBlogTitle a:visited, .nBlogTitle span {
+    color: black;
+    text-decoration: none;
+    font-size: 1.4em;
+    line-height: 1em;
+}
+
+.nBlogMainContainer {
+    width: 95%;
+    margin: auto auto;
+    margin-top: 0.5em;
+}
+
+.nErrorMessage {
+    text-align: center;
+    margin: auto auto;
+    width: 60%;
+}
+
+.nErrorImage {
+    margin: auto auto;
+    margin-top: 3em;
+    background-image: url('../Images/Icons/error.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nLoginFooterSecondary {
+    margin: auto auto;
+    height: 100%;
+    width: 100%;
+}
+
+.nMiddleWindow {
+    width: 100%;
+    height: 100%;
+    margin: auto auto;
+}
+
+.nWrongLogin {
+    width: 80%;
+    padding-top: 1em;
+    border: 3px solid rgb(255,204,0);
+    background-color: rgb(255,255,188);
+    margin: auto auto;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.nWrongLoginIcon {
+    margin: auto auto;
+    background-image: url('../Images/Icons/messagebox_warning.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    width: 2em;
+    height: 2em;
+    margin-top: -2em;
+}
+
+.nLoginButton, .nRegisterButton, .nFPButton, .nFPRecoverButton {
+    background-color: rgb(215,67,46);
+    height: 1.5em;
+    width: 100%;
+    margin: auto auto;
+    color: white;
+    text-align: center;
+    padding-top: 0.3em;
+    text-shadow: none;
+    border-radius: 0.3em;
+}
+
+.nFooterButton2SmallLeft {
+    float: left;
+    margin-left: 5%;
+}
+
+.nFooterButton2SmallRight {
+    float: right;
+    margin-right: 5%;
+}
+
+.nLoginFooter {
+    width: 100% !important;
+    bottom: 1.5em !important;
+    height: 1em !important;
+    left: 0;
+}
+
+.nLoginBox {
+    position: relative;
+    width: 90%;
+    margin: auto auto;
+    bottom: 7em;
+    top: 4em;
+}
+
+.nLoginLogo {
+    top: 2em;
+    width: 90%;
+    height: 4em;
+    margin: auto auto;
+    background-image: url('../Images/logo.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    position: relative;
+    display: block;
+    text-shadow: none;
+}
+
+.loginMainWindow {
+    width: 100%;
+    height: 100%;
+    background-image: url('../Images/music-crowd-01.jpg');
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: center;
+    position: relative;
+    display: block;
+    text-shadow: none;
+}
+
+.nExploreSelected b {
+    color: rgb(215,67,46) !important;
+}
+
+.nTimeTypeContainer {
+    float: left;
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+.nTimeTypeLabel {
+    float: left;
+    margin-left: 0.5em;
+    margin-top: 0.2em;
+}
+
+.nTimeType {
+    width: 2em;
+}
+
+.newEventTime {
+}
+
+.nAEPage {
+    position: absolute;
+    top: 4em;
+    width: 100%;
+}
+
+.nEAAType {
+    margin-top: 0.5em;
+    width: 105%;
+    margin-left: -2.5%;
+}
+
+.nActivityLogoContainer {
+    width: 25%;
+    height: 4.4em;
+    float: left;
+}
+
+.nActivityRestaurant {
+    background-image: url('../Images/Icons/activity4.png');
+}
+
+.nActivityTheater {
+    background-image: url('../Images/Icons/activity1.png');
+}
+
+.nActivityBook {
+    background-image: url('../Images/Icons/activity2.png');
+}
+
+.nActivityDance {
+    background-image: url('../Images/Icons/activity3.png');
+}
+
+.nActivityNature {
+    background-image: url('../Images/Icons/activity5.png');
+}
+
+.nActivityShopping {
+    background-image: url('../Images/Icons/activity6.png');
+}
+
+.nActivitySport {
+    background-image: url('../Images/Icons/activity7.png');
+}
+
+.nActivityMore {
+    background-image: url('../Images/Icons/activity8.png');
+}
+
+.nActivityLogo {
+    margin: auto auto;
+    background-color: rgb(222,222,222);
+    width: 4em;
+    height: 4em;
+    border-radius: 2em;
+    background-size: 70% 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.nEAContentHolder {
+    position: relative;
+    width: 95%;
+    margin: auto auto;
+}
+
+.nEAACticityType {
+    width: 10em;
+    text-align: right;
+}
+
+.nRight {
+    float: right;
+}
+
+.nOrangeEllipse {
+    margin-left: 0.5em;
+    float: left;
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 0.25em;
+    background-color: rgb(215,67,46);
+}
+
+.nGreyEllipse {
+    margin-left: 0.5em;
+    float: left;
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 0.25em;
+    background-color: rgb(79,79,79);
+}
+
+.nEventsAddDots {
+    float: right;
+    font-size: 1em;
+    right: 2.5%;
+    position: relative;
+    top: 0.8em;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    color: rgb(222,222,222);
+    background-color: rgb(222,222,222);
+}
+
+.nTabs b a {
+    color: black !important;
+    text-decoration: none;
+}
+
+.nGraphTitleRating {
+    font-weight: 800;
+}
+
+.nLeft {
+    float: left;
+    width: 1em;
+}
+
+.nGraphBar {
+    float: left;
+    background-color: rgb(138,191,79);
+    height: 0.5em;
+    width: 0em;
+    transition: width 2s ease-in-out;
+    height: 1em;
+    border-radius: 0.3em;
+    -webkit-border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+}
+
+.nGraphTitle {
+    float: left;
+    text-align: center;
+}
+
+.nBarGraphs {
+    float: left;
+    width: 11em;
+    color: rgb(138,191,79);
+    margin-left: 1em;
+}
+
+.nGraphTitleNumber {
+    font-size: 2.5em;
+    margin-top: 0.3em;
+    font-weight: bold;
+    color: rgb(138,191,79);
+}
+
+.nDotsLogo {
+    float: right;
+}
+
+.nDotsBoxEach {
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+    color: black;
+}
+
+    .nDotsBoxEach:last-of-type {
+        border-bottom: none;
+    }
+
+.nDotsBoxEachLogoShare {
+    background-image: url('../Images/Icons/ic_action_share.png');
+}
+
+.nDotsBoxEachLogoBookmark {
+    background-image: url('../Images/Icons/ic_action_favorite.png');
+}
+
+.nDotsBoxEachLogoReport {
+    background-image: url('../Images/Icons/ic_action_bad.png');
+}
+
+.nDotsBoxEachLogoBlock {
+    background-image: url('../Images/Icons/ic_action_error.png');
+}
+
+.nDotsBoxEachLogo {
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    width: 1.2em;
+    height: 1.2em;
+    margin: auto auto;
+    position: relative;
+    float: left;
+}
+
+.nDotsBox {
+    position: absolute;
+    background-color: white;
+    width: 7em;
+    right: 0em;
+    border-top: 2px solid rgb(129,212,249);
+    border-bottom: 2px solid rgb(129,212,249);
+    box-shadow: 0px 0px 24px grey;
+    z-index: 2;
+}
+
+.nProfileMessageButton {
+    color: rgb(53,106,122) !important;
+    width: 100% !important;
+    background-color: rgb(251,250,248);
+}
+
+.nProfileFollowButton {
+    font-size: 0.8em;
+    color: white;
+    width: 12em;
+    height: 1.6em;
+    background-color: rgb(215,67,46);
+    margin: auto auto;
+    text-align: center;
+    margin-top: 0.4em;
+    padding-top: 0.3em;
+    border-radius: 0.5em !important;
+    -webkit-border-radius: 0.5em !important;
+    -moz-border-radius: 0.5em !important;
+    cursor: pointer;
+}
+
+.nProfileUserDescription {
+    width: 99%;
+    margin: auto auto;
+    text-align: center;
+    font-size: 0.7em;
+    margin-top: 0.4em;
+}
+
+.profileName {
+    width: 10em;
+    margin: auto auto;
+    text-align: center;
+    margin-top: 0.5em;
+    line-height: 0.8em;
+}
+
+.nProfileMiddle {
+    width: 100%;
+}
+
+.nDotsProfile {
+    color: grey !important;
+    top: 11em !important;
+    right: 2.5% !important;
+    position: absolute !important;
+}
+
+.nProfileCover {
+    height: 7.0em !important;
+}
+
+.nCountry {
+}
+
+.nFollowings {
+    padding-top: 1.5em !important;
+}
+
+.nProfpagePicture {
+    width: 6em !important;
+    height: 6em !important;
+    border-radius: 3em !important;
+    -webkit-border-radius: 3em !important;
+    -moz-border-radius: 3em !important;
+}
+
+.strokedText {
+    color: black;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white !important;
+    text-shadow: -1px -1px 0 #E0E0E0, 1px -1px 0 #E0E0E0, -1px 1px 0 #E0E0E0, 1px 1px 0 #E0E0E0 !important;
+}
+
+.nProfileBlackText {
+    color: black;
+    margin: auto;
+    width: 6em;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.nCountryFlag {
+    width: 2em;
+    height: 2em;
+    background-size: 100% 100%;
+    margin: auto;
+}
+
+.nVerified {
+    margin-left: -1.7em;
+    margin-top: 0.2em;
+    width: 0.7em;
+    height: 0.7em;
+    background-image: url(../Images/verified.png);
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-bottom: 2em solid transparent;
+    border-left: 2em solid rgb(138,191,79);
+    margin-top: -0.5em;
+}
+
+.nTimeAndLocation {
+    width: auto;
+    height: auto;
+    margin-left: 0.7em;
+    float: left;
+}
+
+.MessageSender {
+    float: left;
+}
+
+    .MessageSender a {
+        text-decoration: none;
+        color: black;
+    }
+
+        .MessageSender a:visited {
+            text-decoration: none;
+            color: black;
+        }
+
+.MessageListDate {
+    float: left;
+    color: rgb(133,133,133);
+    margin-top: -0.2em;
+}
+
+    .MessageListDate span {
+        font-size: 0.7em;
+        text-shadow: none;
+    }
+
+.bubble {
+    margin-left: 2em;
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 1em 2em 1em 2em;
+    background: #FFFFFF;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+    .bubble:after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 0 8px 15px;
+        border-color: #FFFFFF transparent;
+        display: block;
+        width: 0;
+        z-index: 1;
+        top: -15px;
+        left: 20px;
+    }
+
+.requestMessage {
+    margin-left: 6em;
+    background-color: white;
+    height: auto;
+    width: auto;
+    padding: 2em;
+}
+
+.requestSenderName p {
+    margin-top: 0em;
+}
+
+.requestSenderName * {
+    float: left;
+}
+
+.requestButtons {
+    float: right;
+}
+
+.requestActions div {
+    float: left;
+    width: 20%;
+}
+
+    .requestActions div div {
+        width: 20%;
+        height: 20%;
+        display: block;
+        margin: auto auto;
+        background-color: red;
+        float: left;
+    }
+
+.requestPrev {
+}
+
+.requestAccept {
+}
+
+.requestMore {
+}
+
+.requestReject {
+}
+
+.requestNext {
+}
+
+
+
+.requestActions {
+    height: 5em;
+}
+
+
+
+.requestMore {
+    height: 2em;
+    width: 5em;
+    background-color: black;
+    border-radius: 4em !important;
+    margin: auto auto;
+}
+
+.requestBotTransparentBox div {
+    float: left;
+    width: 33%;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 0.3em;
+}
+
+.requestBotTransparentBox {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    height: 2em;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 4em !important;
+}
+
+.fullRequestContainer {
+    height: 10em;
+    margin-top: 5px;
+}
+
+.requestImage {
+    float: left;
+    width: 5em;
+    height: 5em;
+    background-size: 100% 100%;
+}
+
+.notificationButton input {
+    border: none !important;
+    font-size: 0;
+    background-image: url(../Images/artistic.png) !important;
+    background-size: 100% 100% !important;
+}
+
+.notificationButton {
+    width: 2.5em;
+    float: right;
+    background-color: red;
+    margin-top: -1.5em;
+}
+
+.notificationDate {
+    font-size: 0.6em;
+    color: grey;
+}
+
+.notificationLabel {
+    font-size: 1.3em;
+}
+
+.clear {
+    clear: both;
+}
+
+.notificationImage {
+    width: 2em;
+    height: 2em;
+    background-size: 100% 100%;
+    float: left;
+    left: 1em;
+    background-color: grey;
+}
+
+.nMenuProfilePicture {
+    position: relative;
+    cursor: pointer;
+    width: 4em;
+    height: 4em;
+    border-radius: 2em;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    margin: auto auto;
+}
+
+.nNewGraphText {
+    top: 0.2em;
+    color: white;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    font-size: 0.8em;
+    line-height: 1.1;
+}
+
+.nEventCoverBox {
+    width: 33%;
+    height: 5em;
+    float: left;
+    padding-top: 0.5em;
+}
+
+.nNewGraphTop {
+    position: absolute;
+    background-color: rgb(138,191,79);
+    width: 100%;
+    height: 1px;
+    top: 0px;
+    transition: all 2s ease-in-out;
+}
+
+.nNewGraphBottom {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0px;
+    background-color: rgb(255,156,0);
+    transition: all 2s ease-in-out;
+}
+
+.nNewGraph {
+    overflow-x: hidden;
+}
+
+.nActivityPicture {
+    background-image: url('../../Images/artistic.png');
+    background-color: rgb(222,222,222);
+    width: 3.5em !important;
+    height: 3.5em !important;
+    top: 0.5em;
+    background-size: 70% 70% !important;
+}
+
+.nProfilePicture {
+    background-image: url('../../Images/owner.JPG');
+    cursor: pointer;
+}
+
+.nContentCoverTransparent {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    background: -webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0)); /* Standard syntax */
+}
+
+#logoutPanel {
+    position: absolute;
+    bottom: 1em;
+    width: 60%;
+    height: 3em;
+    border: none;
+    color: rgb(253,218,125);
+    font-size: 0.8em;
+    padding-left: 1em;
+}
+
+.nPageRightButton {
+    float: right;
+}
+
+#nMenuPanelLi {
+    width: 40%;
+    background-color: rgb(255,187,5);
+}
+
+#nMainPanelLi {
+    width: 59%;
+    background-color: white;
+    position: relative;
+}
+
+.nPanelLi {
+    height: 102%;
+    display: inline-block;
+    /*transition: all 2s ease-in-out; */
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.nAll {
+    left: -230px;
+    width: 170%;
+    height: 50em;
+    position: relative;
+    margin-right: auto;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.nMainPanel {
+    display: inline-block;
+}
+
+.nPanelName {
+    position: relative;
+    top: 1em;
+    left: 1.5em;
+    width: 3em;
+    float: left;
+    text-shadow: none;
+}
+
+.nPanelIconInside {
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    width: 1.5em;
+    height: 1.5em;
+    margin: auto auto;
+    position: relative;
+    top: 0.75em;
+    left: 0.75em;
+    float: left;
+}
+
+.nPanelSubBox {
+    width: 32%;
+    height: 100%;
+    float: left;
+    border-right: 1px solid #dda102;
+}
+
+    .nPanelSubBox:last-child {
+        border: none;
+    }
+
+.nPanelIcon {
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    width: 1.5em;
+    height: 1.5em;
+    margin: auto auto;
+    position: relative;
+    top: 0.75em;
+}
+
+.nExploreBut {
+    background-image: url('../../Images/Icons/panelExplore.png');
+}
+
+.nFeedBut {
+    background-image: url('../../Images/Icons/feed.png');
+}
+
+.nEventsBut {
+    background-image: url('../../Images/Icons/events.png');
+}
+
+.nSearchBut {
+    background-image: url('../../Images/Icons/search.png');
+}
+
+.nCalendarBut {
+    background-image: url('../../Images/Icons/calendar.png');
+}
+
+.nSettingsBut {
+    background-image: url('../../Images/Icons/settings.png');
+}
+
+.nLogoutBut {
+    background-image: url('../../Images/Icons/turnoff.png');
+}
+
+.nNewEventBut {
+    background-image: url('../../Images/newEvent.png');
+}
+
+.nEmailBut {
+    background-image: url('../../Images/Icons/email.png');
+}
+
+.nPersonBut {
+    background-image: url('../../Images/Icons/person.png');
+}
+
+#nPanelBox1 {
+    height: 4em;
+}
+
+.nPanelBox {
+    color: white;
+    width: 100%;
+    height: 3em;
+    border-bottom: 1px solid #dda102;
+    cursor: pointer;
+}
+
+    .nPanelBox i {
+        color: white;
+    }
+
+.nName {
+    color: white;
+    float: left;
+    top: 1.5em;
+    left: 1em;
+    position: relative;
+    text-shadow: none;
+}
+
+#nPanelProfilePicture {
+    position: relative;
+    float: left;
+    top: 1em;
+    left: 0.5em;
+    width: 2em;
+    height: 2em;
+    border-radius: 2em;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.nMenuPanel {
+    background-color: rgb(255,187,5);
+    height: 30em;
+    width: 60%;
+    display: inline-block;
+}
+
+.nExploreSelected {
+    color: rgb(215,67,46) !important;
+    border-bottom-color: rgb(215,67,46) !important;
+    height: 2em;
+    border-bottom: solid;
+}
+
+    .nExploreSelected b a {
+        color: rgb(215,67,46) !important;
+    }
+
+.nExplore {
+    line-height: 2;
+}
+
+.nRequestButton {
+    background-color: rgb(138,191,79);
+}
+
+.nNotButton {
+    background-color: rgb(255,187,5);
+}
+
+.nFooterButton {
+    padding-top: 1em;
+    color: white;
+    height: 100%;
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-size: 0.8em;
+    text-shadow: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.nExploreFooter {
+    position: fixed;
+    bottom: 0.5em;
+    width: 100%;
+    height: 2em;
+    z-index: 2;
+}
+
+.nExploreContentHolder {
+    position: relative;
+    top: 2em;
+    height: 10em;
+    width: 95%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    margin: auto auto;
+    float: left;
+}
+
+.nTabContents {
+    position: absolute;
+    width: 95%;
+}
+
+.hidden, .hide {
+    visibility: hidden !important;
+}
+
+.nExploreLine {
+    position: relative;
+    top: 0.7em;
+}
+
+.nTabsHolder {
+    position: relative;
+    top: 0.5em;
+    width: 100%;
+}
+
+.nTabs4 {
+    width: 25%;
+}
+
+.nTabs3 {
+    width: 33.3%;
+}
+
+.nTabs2 {
+    width: 50% !important;
+}
+
+.nTabs {
+    float: left;
+    height: 1.7em;
+    text-align: center;
+    border-bottom: solid #C8C8C8;
+    border-bottom-width: 2px;
+    cursor: pointer;
+}
+
+    .nTabs b {
+        font-size: 0.7em;
+        color: black;
+        text-decoration: none;
+    }
+
+#canvas2 {
+    top: -0.6em;
+    left: -0.6em;
+    position: absolute;
+}
+
+.nRoundPicture {
+    position: relative;
+    width: 4em;
+    height: 4em;
+    border-radius: 2em;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto auto;
+    background-size: cover;
+}
+
+.nContent {
+    width: 100%;
+}
+
+.nContentCover {
+    background-image: url('../Images/moods/1-big.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 9em;
+    color: white;
+    text-shadow: none;
+}
+
+.nCanvasParticipantGraph {
+}
+
+.nParticipants {
+    width: 9em;
+    top: 0.4em;
+    position: relative;
+    float: right;
+    height: 2em;
+    right: 1em;
+}
+
+.nExploreall {
+    width: 6em;
+    float: left;
+    margin-left: 0.5em;
+    color: rgb(255,187,5);
+    font-size: 0.8em;
+}
+
+.nExploreRemained {
+    color: lightblue;
+    width: 6em;
+    float: left;
+    margin-left: 0.5em;
+    font-size: 0.8em;
+}
+
+.nParticipantNumbers {
+    margin: auto;
+    position: relative;
+    top: 1.3em;
+    width: 0.9em;
+}
+
+.nParticipantsGraph {
+    float: left;
+    top: -9px;
+    position: relative;
+}
+
+.nExploreLocation {
+    line-height: 1.5;
+    float: left;
+    margin-left: 0.3em;
+    font-size: 0.8em;
+}
+
+.nTopContentHeaderRight {
+    width: 7em;
+    float: right;
+    margin-right: -1em;
+}
+
+.nTopContentHeaderLeft {
+    float: left;
+    width: 12em;
+}
+
+.nExploreTime {
+    width: auto;
+    line-height: 1.5;
+    float: left;
+    left: 0.3em;
+    position: relative;
+    font-size: 0.8em;
+    margin-right: 1em;
+}
+
+.nTopContentHeader {
+    width: 98%;
+    height: 5em;
+    margin: auto;
+}
+
+.nDots {
+    float: right;
+    font-size: 1em;
+    right: -1.5em;
+    position: relative;
+    top: 0.4em;
+}
+
+.nContentTitle {
+    top: 0.2em;
+    float: left;
+    display: block;
+    font-size: 1.2em;
+    position: relative;
+    text-shadow: none;
+    font-weight: bold;
+    left: 0.7em;
+}
+
+    .nContentTitle a {
+        color: black !important;
+        text-decoration: none;
+    }
+
+.nEAContentTitle {
+    color: rgb(65,85,125);
+    left: 2%;
+}
+
+.nMenuAdd {
+    color: white;
+    font-size: 3em;
+    float: right;
+    position: relative;
+    height: 0.4em;
+    top: -0.3em;
+    width: 0.8em;
+    line-height: 0.5em;
+    cursor: pointer;
+}
+
+.nPageTitle {
+    top: 1.5em;
+    height: 2em;
+    width: 10em;
+    margin: auto;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nMenuButtonLogo {
+    background-image: url(../Images/menuIcon.png);
+    top: 0.5em;
+    margin: auto;
+    background-size: 100% 100%;
+    width: 1.6em;
+    height: 1.2em;
+    position: relative;
+}
+
+.nMenuButton {
+    float: left;
+    border-radius: 0.5em;
+    position: relative;
+    DISPLAY: block;
+    height: 2em;
+    width: 2.5em;
+    /* background-color: rgb(255,187,5); */
+    top: 0.75em;
+    left: 0.3em;
+    cursor: pointer;
+}
+
+.nHeader {
+    height: 3.5em;
+    width: 100%;
+    background-color: rgb(215,67,46);
+}
+
+.bubble {
+    margin-left: 2em;
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 1em 2em 1em 2em;
+    background: #FFFFFF;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+    .bubble:after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 0 8px 15px;
+        border-color: #FFFFFF transparent;
+        display: block;
+        width: 0;
+        z-index: 1;
+        top: -15px;
+        left: 20px;
+    }
+
+.requestMessage {
+    margin-left: 6em;
+    background-color: white;
+    height: auto;
+    width: auto;
+    padding: 2em;
+}
+
+.requestSenderName p {
+    margin-top: 0em;
+}
+
+.requestSenderName * {
+    float: left;
+}
+
+.requestButtons {
+    float: right;
+}
+
+.requestActions div {
+    float: left;
+    width: 20%;
+}
+
+    .requestActions div div {
+        width: 20%;
+        height: 20%;
+        display: block;
+        margin: auto auto;
+        background-color: red;
+        float: left;
+    }
+
+.requestPrev {
+}
+
+.requestAccept {
+}
+
+.requestMore {
+}
+
+.requestReject {
+}
+
+.requestNext {
+}
+
+
+
+.requestActions {
+    height: 5em;
+}
+
+
+
+.requestMore {
+    height: 2em;
+    width: 5em;
+    background-color: black;
+    border-radius: 4em !important;
+    margin: auto auto;
+}
+
+.requestBotTransparentBox div {
+    float: left;
+    width: 33%;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 0.3em;
+}
+
+.requestBotTransparentBox {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    height: 2em;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 4em !important;
+}
+
+.fullRequestContainer {
+    height: 10em;
+    margin-top: 5px;
+}
+
+.requestImage {
+    float: left;
+    width: 5em;
+    height: 5em;
+    background-size: 100% 100%;
+}
+
+.fullNotificationContainer {
+    background-color: white;
+    padding-top: 0.8em;
+}
+
+.notificationButton input {
+    border: none !important;
+    font-size: 0;
+    background-image: url(../Images/artistic.png) !important;
+    background-size: 100% 100% !important;
+}
+
+.notificationButton {
+    width: 2.5em;
+    float: right;
+    background-color: red;
+    margin-top: -1.5em;
+}
+
+.notificationDate {
+    font-size: 0.6em;
+    color: grey;
+}
+
+.notificationLabel {
+    font-size: 1.3em;
+}
+
+.clear {
+    clear: both;
+}
+
+.nMessagesPicture {
+    margin-top: 1em;
+    width: 2em;
+    height: 2em;
+    background-color: grey;
+    background-size: 100% 100%;
+    float: left;
+    margin-left: 0.5em;
+    border-radius: 2em;
+    cursor: pointer;
+}
+
+.messageButton {
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+}
+
+.followingBox {
+    position: absolute;
+    bottom: -3em;
+    right: 1em;
+}
+
+.coverPicture h1 a {
+    color: white !important;
+    text-shadow: none;
+    top: -1em;
+    margin-top: -1.2em;
+    margin-left: 1em;
+    display: block;
+}
+
+#ContentPlaceHolder1_ButtonActionYes {
+    background-color: red;
+}
+
+#ContentPlaceHolder1_ButtonActionNo {
+    background-color: green;
+}
+
+.eventTransparentBox h1 {
+    left: 0.5em;
+    position: relative;
+    top: -0.5em;
+}
+
+.eventTransparentBox h4 {
+    right: 0.5em;
+    position: relative;
+    top: -4em;
+    left: 4em;
+}
+
+.moodIcon {
+    display: block;
+    width: 3em;
+    height: 3em;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    float: left;
+    margin-top: 0.2em;
+}
+
+.eventEachInformationStartTime {
+    display: block;
+    margin-top: -2em;
+}
+
+.eventFooterButtons div {
+    border: 2px solid white !important;
+    border-radius: 4em !important;
+    text-shadow: none;
+    width: 3em !important;
+    height: 3em !important;
+    margin-top: -6em !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    display: block !important;
+    text-shadow: none !important;
+    position: relative !important;
+    float: left;
+    padding-top: 1.5em !important;
+}
+
+    .eventFooterButtons div input {
+        top: 1em !important;
+        margin-top: 1em !important;
+    }
+
+.eventFooterButtons1 div {
+    float: left;
+    background-color: red !important;
+}
+
+.eventFooterButtons2 div {
+    float: right;
+    background-color: green !important;
+}
+
+.eventDescription {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    vertical-align: middle;
+    color: grey;
+    display: block;
+    width: 100%;
+}
+
+.eventEachInformation {
+    width: 32%;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    vertical-align: middle;
+    color: grey;
+    display: block;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    float: left;
+}
+
+.eventInformation {
+    border: 2px solid white;
+    border-radius: 1em;
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: auto auto;
+    background-color: #F0F0F0;
+    margin-top: -1.75em;
+}
+
+.rateDiv {
+    color: white;
+    display: block;
+    top: 8em;
+    position: relative;
+    left: 4em;
+    text-shadow: 2px 2px black;
+}
+
+.eventTransparentBox {
+    line-height: 3.5em;
+    padding-left: 0.7em;
+    color: white;
+    width: auto;
+    height: 4em;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.ownerPicture {
+    cursor: pointer;
+    width: 10em;
+    height: 10em;
+    border-radius: 5em;
+    border: 2px solid white;
+    -webkit-border-radius: 5em;
+    -moz-border-radius: 5em;
+    background-image: url('../../Images/owner.JPG');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.ownerDiv {
+    width: 10em;
+    height: 10em;
+    display: block;
+    float: right;
+    margin-top: -2em;
+    margin-right: -1em;
+}
+
+.requestCoverPicture {
+    position: relative;
+    border: 2px solid white;
+    border-radius: 1em;
+    display: block;
+    height: 13em;
+    margin: 2em auto;
+    margin-bottom: 0.5em;
+    background-image: url('../../Images/club.JPG');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.coverPicture {
+    position: relative;
+    border: 2px solid white;
+    border-radius: 1em;
+    display: block;
+    width: 90%;
+    height: 13em;
+    margin: 2em auto;
+    background-image: url('../../Images/club.JPG');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.ui-body-c, .ui-overlay-c {
+    background: pink;
+}
+
+.ui-content {
+    background: transparent;
+}
+
+.progressPercentDiv {
+    display: block;
+    width: 3em;
+    margin: 0 auto;
+    top: 1em;
+    position: relative;
+    z-index: 1;
+}
+
+.backButton {
+    float: left;
+    left: 1em;
+}
+
+.profilePicSmall {
+    width: 3em;
+    height: 3em;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.panelBtn {
+    float: right;
+}
+
+.ui-mobile, .ui-mobile body {
+    margin: 0;
+}
+
+.coverPhoto {
+    background-image: url('../Images/girl happy.JPG');
+    width: 100%;
+    height: 10em;
+    background-size: 100%;
+}
+
+.notificationBox {
+    width: 11em;
+    float: right;
+    margin-right: 1em;
+}
+
+.notificationNumber {
+    position: relative;
+    float: right;
+    background-color: red;
+    color: white;
+    font-size: 0.65em;
+    right: 0.25em;
+    z-index: 1;
+    padding: 0.125em 0.5em 0.125em 0.5em;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+}
+
+.notificationContainer {
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+}
+
+.logo {
+    float: left;
+    width: 5em;
+    height: 2em;
+    margin-left: 3em;
+    margin-top: 0.5em;
+    background-image: url('../Images/logo.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.centeredText {
+    text-align: center;
+}
+
+.rightText {
+    text-align: right;
+}
+
+.leftText {
+    text-align: left;
+}
+
+.circular {
+    width: 8em;
+    height: 8em;
+    border-radius: 4em;
+    -webkit-border-radius: 4em;
+    -moz-border-radius: 4em;
+    background-size: 8em 8em;
+}
+
+.name {
+    padding-top: 3em;
+    padding-left: 7em;
+    width: 10em;
+}
+
+.infoBox {
+    width: 100%;
+    margin: auto;
+}
+
+.panelBox {
+    width: 100%;
+    margin: auto;
+}
+
+.settingsTabs {
+    width: 16.66% !important; /* 12.5% for 8 tabs wide */
+    clear: none !important; /* Prevent line break caused by ui-block-a */
+}
+
+.ui-filter-inset {
+    margin-top: 0;
+}

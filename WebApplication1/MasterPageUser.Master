@@ -1,0 +1,106 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPageUser.master.cs" Inherits="WebApplication1.MasterPageUser" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="Styles/themes/moody.min.css" />
+    <link rel="stylesheet" href="Styles/themes/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile.structure-1.4.3.min.css" />
+    <link rel="stylesheet" href="Styles/font-awesome-4.2.0/css/font-awesome.min.css" />
+
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script>
+        $(document).on("mobileinit", function () {
+            $.mobile.selectmenu.prototype.options.nativeMenu = false;
+        });
+        $(document).bind("mobileinit", function () {
+            $.mobile.ajaxEnabled = false;
+        });
+    </script>
+    <script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
+    <script src="../JS/script.js"></script>
+    <link rel="stylesheet" href="Styles/style.css" />
+    <script>
+        $(document).ready(function () {
+            generalLook();
+            menu();
+        });
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <ul class="nAll">
+            <!-- side panel -->
+            <li class="nPanelLi" id="nMenuPanelLi">
+                <div class="nPanelBox" id="nPanelBox1">
+                    <div class="nProfilePicture" id="nPanelProfilePicture">
+                    </div>
+                    <div class="nName">
+                        <asp:Label ID="LabelFullName" runat="server"></asp:Label></div>
+                    <div class="clear"></div>
+                </div>
+                <div class="nPanelBox">
+                    <div class="nPanelSubBox">
+                        <div class="nEmailBut nPanelIcon"></div>
+                    </div>
+                    <div class="nPanelSubBox">
+                        <div class="nNewEventBut nPanelIcon"></div>
+                    </div>
+                    <div class="nPanelSubBox">
+                        <div class="nPersonBut nPanelIcon"></div>
+                    </div>
+                </div>
+                <div class="nPanelBox">
+                    <div class="nExploreBut nPanelIconInside"></div>
+                    <div class="nPanelName">EXPLORE</div>
+                </div>
+                <div class="nPanelBox">
+                    <div class="nFeedBut nPanelIconInside"></div>
+                    <div class="nPanelName">FEED</div>
+                </div>
+                <div class="nPanelBox">
+                    <div class="nEventsBut nPanelIconInside"></div>
+                    <div class="nPanelName">
+                        EVENTS
+                    </div>
+                </div>
+                <div class="nPanelBox">
+                    <div class="nSearchBut nPanelIconInside"></div>
+                    <div class="nPanelName">SEARCH</div>
+                </div>
+                <div class="nPanelBox">
+                    <div class="nCalendarBut nPanelIconInside"></div>
+                    <div class="nPanelName">CALENDAR</div>
+                </div>
+                <div class="nPanelBox">
+                    <div class="nSettingsBut nPanelIconInside"></div>
+                    <div class="nPanelName">SETTINGS</div>
+                </div>
+                <div class="nPanelBox" id="logoutPanel">
+                    <div class="nLogoutBut nPanelIconInside"></div>
+                    <div class="nPanelName">LOGOUT</div>
+                </div>
+                <!-- ATTENTION! There shouldn't be any white space between </li> and <li> -->
+            </li><li class="nPanelLi nMainPanelScrollable" id="nMainPanelLi">
+
+                <!--
+        <asp:HyperLink ID="HyperLinkProfile" runat="server" CssClass="profileLink ui-btn ui-btn-a ui-corner-all ui-icon-delete ui-btn-icon-right" NavigateUrl="~/Profile">Profile</asp:HyperLink>
+        <asp:HyperLink ID="HyperLinkSettings" runat="server" CssClass="ui-btn ui-btn-a ui-corner-all ui-icon-delete ui-btn-icon-right" NavigateUrl="~/Settings">Settings</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink1" runat="server" CssClass="ui-btn ui-btn-a ui-corner-all ui-icon-delete ui-btn-icon-right" NavigateUrl="~/Logout">Logout</asp:HyperLink>
+        -->
+                <asp:HiddenField ID="HiddenFieldPhotoUrl" runat="server" />
+                <asp:HiddenField ID="HiddenFieldMessages" runat="server" />
+                <asp:HiddenField ID="HiddenFieldRequests" runat="server" />
+                <asp:HiddenField ID="HiddenFieldNotifications" runat="server" />
+                <asp:HiddenField ID="HiddenFieldUsername" runat="server" />
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
